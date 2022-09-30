@@ -1,12 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Festival Estéreo</title>
-</head>
-<body>
-    Welcome to Estéreo
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/reset.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato">
+        <link rel="stylesheet" href="./css/style.css">
+        <title>Festival Estéreo</title>
+    </head>
+
+    <body>
+        <nav class="navbar navbar-expand-lg bg-light px-lg-3">
+            <div class="container-fluid">
+                <a class="navbar-brand h1 m-2" href="./index.html"><img src="./assets/logo-estereo.png" alt="festival-estereo"/></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHome"
+                    aria-controls="navbarHome" aria-expanded="false" aria-label="Navegacion">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse flex-grow-0" id="navbarHome">
+                    <ul class="navbar-nav mb-2 mb-lg-0 ps-sm-2">
+                        <li class="nav-item">
+                            <a href="#festival" class="nav-link">Festival</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#grilla" class="nav-link">Grilla</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#sedes" class="nav-link">Sedes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#organizadores" class="nav-link">Organizadores</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#partners" class="nav-link">Partners</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contacto" class="nav-link">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <main>
+            <section id="main-img" class="container-fluid text-center">
+                <div class="trazos row align-items-center pt-5 px">
+                    <div class="col d-none d-md-flex flex-column justify-content-around align-items-center">
+                        <img id="main-section-logo" src="./assets/logo-estereo.png" alt="logo-stereo">
+                        <div class="mt-3">
+                            <a class="btn btn-primary" role="button">Quiero asistir</a>
+                            <a class="btn btn-light" role="button">Quiero participar</a>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <img src="./assets/pibito.png" alt="pibito">
+                        <div class="mt-3 d-md-none d-sm-block">
+                            <a class="btn btn-primary" role="button">Quiero asistir</a>
+                            <a class="btn btn-light" role="button">Quiero participar</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 </body>
 </html>

@@ -1,0 +1,42 @@
+body {
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+}
+
+.navbar-brand img {
+    max-height: 10vw;
+}
+
+.nav-link {
+    font-weight: 600;
+}
+
+.inline {
+    display: inline;
+}
+
+/* .trazos {
+
+    background-image: url('../assets/trazos.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+} */
+#main-img {
+    background-image: url('../assets/Textura.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#main-img img {
+    max-width: 80%;
+    max-height: 50vh;
+}
+
+img#main-section-logo {
+    max-width: 30vw;
+}
+
+@media screen and (min-width:768px) {
+    .navbar-brand img {
+        max-height: 3vw;
+    }
+}
