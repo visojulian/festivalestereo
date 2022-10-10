@@ -1,17 +1,17 @@
 body {
-    font-family: 'Lato', Arial, Helvetica, sans-serif;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
 .navbar-brand img {
-    max-height: 10vw;
+  max-height: 10vw;
 }
 
 .nav-link {
-    font-weight: 600;
+  font-weight: 600;
 }
 
 .inline {
-    display: inline;
+  display: inline;
 }
 
 /* .trazos {
@@ -21,30 +21,30 @@ body {
     background-repeat: no-repeat;
 } */
 #main-img {
-    background-image: url('../assets/Textura.png');
-    background-size: cover;
-    background-repeat: no-repeat;
+  background-image: url('../assets/Textura.png');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 #main-img img {
-    max-width: 80%;
-    max-height: 50vh;
+  max-width: 80%;
+  max-height: 50vh;
 }
 
 img#main-section-logo {
-    max-width: 30vw;
+  max-width: 30vw;
 }
 
 #festival-img {
-    height: 500px;
-    background-image: url(../assets/cec-aereo.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
+  height: 500px;
+  background-image: url(../assets/cec-aereo.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 @media screen and (min-width:768px) {
-    .navbar-brand img {
-        max-height: 3vw;
-    }
+  .navbar-brand img {
+    max-height: 3vw;
+  }
 }
