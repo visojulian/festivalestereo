@@ -59,6 +59,11 @@ img#main-section-logo {
   max-width: 30vw;
 }
 
+footer img {
+  margin: auto;
+  max-width: 50vw;
+}
+
 @media screen and (min-width:768px) {
   .navbar-brand img {
     max-height: 3vw;
@@ -73,6 +78,10 @@ img#main-section-logo {
   }
 
   #apoyan img {
+    max-width: 15vw;
+  }
+
+  footer img {
     max-width: 15vw;
   }
 }
