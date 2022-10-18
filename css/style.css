@@ -43,8 +43,36 @@ img#main-section-logo {
   background-position: center;
 }
 
+.media-partner img {
+  max-width: 60vw;
+}
+
+.media-partner .row {
+  width: 100%;
+}
+
+.chevallier-logo {
+  max-width: 85vw;
+}
+
+#apoyan img {
+  max-width: 30vw;
+}
+
 @media screen and (min-width:768px) {
   .navbar-brand img {
     max-height: 3vw;
+  }
+
+  .chevallier-logo {
+    max-width: 22vw;
+  }
+
+  .media-partner img {
+    max-width: 15vw;
+  }
+
+  #apoyan img {
+    max-width: 15vw;
   }
 }
