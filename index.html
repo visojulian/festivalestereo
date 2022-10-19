@@ -12,7 +12,7 @@
   <link rel="stylesheet" type="text/css" href="./css/slick.css" />
   <link rel="stylesheet" type="text/css" href="./css/slick-theme.css" />
   <link rel="stylesheet" href="./css/style.css">
-  <script src="./app.js"></script>
+  <script src="./js/app.js"></script>
   <title>Festival Estéreo</title>
 </head>
 
@@ -28,9 +28,6 @@
       <div class="collapse navbar-collapse flex-grow-0" id="navbarHome">
         <ul class="navbar-nav mb-2 mb-lg-0 ps-sm-2">
           <li class="nav-item">
-            <a href="#festival" class="nav-link">Festival</a>
-          </li>
-          <li class="nav-item">
             <a href="#grilla" class="nav-link">Grilla</a>
           </li>
           <li class="nav-item">
@@ -43,6 +40,9 @@
             <a href="#partners" class="nav-link">Partners</a>
           </li>
           <li class="nav-item">
+            <a href="#festival" class="nav-link">Festival</a>
+          </li>
+          <li class="nav-item">
             <a href="#contacto" class="nav-link">Contacto</a>
           </li>
         </ul>
@@ -50,7 +50,7 @@
     </div>
   </nav>
   <main>
-    <section id="main-img" class="container-fluid pb-2 pb-md-0 mb-3 text-center">
+    <section id="main-img" class="container-fluid pb-2 pb-md-0 text-center">
       <div class="trazos row align-items-center pt-5 px">
         <div class="col d-none d-md-flex flex-column justify-content-around align-items-center">
           <img class="img-fluid" id="main-section-logo" src="./assets/logo-estereo.png" alt="logo-stereo">
@@ -73,13 +73,15 @@
         </div>
       </div>
     </section>
-    <section class="bg-dark" id="grilla">
-      <div class="container mt-3 py-5">
+    <section id="grilla">
+      <div class="container py-5">
         <h2 class="fw-bold text-light text-center mb-4">Mirá la grilla completa</h2>
         <div class="d-md-flex justify-content-around gap-4">
           <div class="card">
+            <div class="color3 p-3">
+              <div class="h5 card-title text-light mb-0">Inauguración Festival</div>
+            </div>
             <div class="card-body">
-              <div class="h5 card-title">Inauguración Festival</div>
               <div class="h6 card-subtitle text-muted mb-2">Día 1</div>
               <p class="card-text">Experiencia inmersiva de una serie de podcast en el cine el cairo.... Lorem ipsum
                 dolor sit amet consectetur adipisicing elit. Eos dolorum autem excepturi? Asperiores, id provident.</p>
@@ -87,8 +89,10 @@
             </div>
           </div>
           <div class="card mt-3 mt-md-0">
+            <div class="color4 p-3">
+              <div class="h5 card-title text-light mb-0">Formación</div>
+            </div>
             <div class="card-body">
-              <div class="h5 card-title">Formación</div>
               <div class="h6 card-subtitle text-muted mb-2">Día 2</div>
               <p class="card-text">Experiencia inmersiva de una serie de podcast en el cine el cairo.... Lorem ipsum
                 dolor sit amet consectetur, adipisicing elit. Id voluptatibus quisquam adipisci impedit debitis?
@@ -97,6 +101,9 @@
             </div>
           </div>
           <div class="card mt-3 mt-md-0">
+            <div class="color1 p-3">
+              <div class="h5 card-title text-light mb-0">Inauguración Festival</div>
+            </div>
             <div class="card-body">
               <div class="h5 card-title">Podcast en Vivo</div>
               <div class="h6 card-subtitle text-muted mb-2">Día 3</div>
@@ -166,7 +173,7 @@
     </section>
     <section id="organizadores">
       <div class="container py-5">
-        <h2 class="fw-bold text-center text-md-start pb-4">Organizan</h2>
+        <h2 class="fw-bold text-light text-center text-md-start pb-4">Organizan</h2>
         <div class="autoplay">
           <div class="container">
             <div class="card">
@@ -298,14 +305,21 @@
       <div class="container py-5">
         <h2 class="fw-bold text-center">Apoyan este festival</h2>
         <div class="d-flex justify-content-around align-items-center flex-wrap py-2">
-          <img src="./assets/logo-planteo.png" alt="main-partner" class="m-2">
-          <img src="./assets/bengala-logo-negro.png" alt="main-partner" class="m-2">
-          <img src="./assets/logo-planteo.png" alt="main-partner" class="m-2">
-          <img src="./assets/bengala-logo-negro.png" alt="main-partner" class="m-2">
-          <img src="./assets/logo-planteo.png" alt="main-partner" class="m-2">
-          <img src="./assets/bengala-logo-negro.png" alt="main-partner" class="m-2">
-          <img src="./assets/logo-planteo.png" alt="main-partner" class="m-2">
-          <img src="./assets/bengala-logo-negro.png" alt="main-partner" class="m-2">
+          <img src="./assets/logo-biblio.png" alt="Biblioteca Argentina" class="m-2">
+          <img src="./assets/santafecult.png" alt="Santa Fe Cultura" class="m-2">
+          <img src="./assets/unraf.png" alt="UNRafaela" class="m-2">
+          <img src="./assets/ecs.png" alt="Esc. Comunicación Social" class="m-2">
+          <img src="./assets/cairo.png" alt="Cine El Cairo" class="m-2">
+          <img src="./assets/logo-cec.png" alt="CEC Rosario" class="m-2">
+          <img src="./assets/diputados.png" alt="Cam. Diputados Sta. Fe" class="m-2">
+          <img src="./assets/podcasteros.png" alt="Podcasteros" class="m-2">
+          <img src="./assets/innovar.png" alt="Espacio Innova.R" class="m-2">
+          <img src="./assets/brujula.png" alt="Brújula Coworking" class="m-2">
+          <img src="./assets/late.png" alt="Revista LATE" class="m-2">
+          <img src="./assets/labso.png" alt="Laboratorio Sonoro" class="m-2">
+          <img src="./assets/todosobrepodcast.png" alt="Todo sobre podcast" class="m-2">
+          <img src="./assets/dropthemic.png" alt="Drop The Mic" class="m-2">
+          <img src="./assets/escuchapod.png" alt="Escucha Podcast" class="m-2">
         </div>
       </div>
     </section>
@@ -342,8 +356,8 @@
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  <script type="text/javascript" src="./slick.js"></script>
-  <script type="text/javascript" src="./slick.min.js"></script>
+  <script type="text/javascript" src="./js/slick.js"></script>
+  <script type="text/javascript" src="./js/slick.min.js"></script>
 </body>
 
 </html>
