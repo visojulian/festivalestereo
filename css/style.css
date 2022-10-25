@@ -14,12 +14,6 @@ body {
   display: inline;
 }
 
-/* .trazos {
-
-    background-image: url('../assets/trazos.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-} */
 #main-img {
   background-color: #F8F9FA;
 }
@@ -36,9 +30,10 @@ img#main-section-logo {
 #festival-img {
   height: 500px;
   background-image: url(../assets/cec-aereo.jpg);
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  border-radius: 15%;
 }
 
 .media-partner img {
@@ -63,24 +58,64 @@ footer img {
   max-width: 50vw;
 }
 
-#grilla, #organizadores {
-  background-color: #14162D;
-}
-
-.color1 {
-  background-color: #F66D5B;
-}
-
-.color2 {
-  background-color: #00E06E;
-}
-
-.color3 {
+#grilla, footer {
   background-color: #D0B9E9;
 }
 
+#sedes .card img {
+  max-height: 130px;
+}
+
+.color1 {
+  color: #F66D5B;
+}
+
+.color2 {
+  color: #00E06E;
+}
+
+.color3 {
+  color: #14162D;
+}
+
 .color4 {
+  color: #FF6D87;
+}
+
+.color5 {
+  background-color: #D0B9E9;
+}
+
+.bg-color1 {
+  background-color: #F66D5B;
+}
+
+.bg-color2 {
+  background-color: #00E06E;
+}
+
+.bg-color3 {
+  background-color: #14162D;
+}
+
+.bg-color4 {
   background-color: #FF6D87;
+}
+
+.bg-color5 {
+  background-color: #D0B9E9;
+}
+
+.btn.bg-color1:hover {
+  background-color: #F66D5B90;
+}
+
+.btn.bg-color3:hover {
+  background-color: #14162D90;
+}
+
+.btn.bg-color4:hover {
+  background-color: #FF6D8790;
 }
 
 @media screen and (min-width:768px) {
