@@ -62,10 +62,6 @@ footer img {
   background-color: #D0B9E9;
 }
 
-#sedes .card img {
-  max-height: 130px;
-}
-
 .color1 {
   color: #F66D5B;
 }
@@ -138,5 +134,9 @@ footer img {
 
   footer img {
     max-width: 15vw;
+  }
+
+  #sedes .card img {
+    max-height: 130px;
   }
 }
