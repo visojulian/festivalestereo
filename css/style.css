@@ -36,6 +36,10 @@ img#main-section-logo {
   border-radius: 15%;
 }
 
+#organizadores .card img {
+  width: 135px;
+}
+
 #partners img {
   max-height: 110px;
   max-width: 330px;
@@ -148,7 +152,7 @@ footer img {
   }
 
   #sedes .card img {
-    max-height: 130px;
+    max-height: 225px;
   }
 
   #medias img {
