@@ -14,6 +14,20 @@ body {
   display: inline;
 }
 
+.nav-item i {
+  font-size: 1.5rem;
+  margin-right: 2vw;
+  color: #F66D5B;
+}
+
+.nav-item i:hover {
+  color: #F66D5B60;
+}
+
+main {
+  overflow: hidden;
+}
+
 #main-img {
   background-color: #F8F9FA;
 }
@@ -36,6 +50,11 @@ img#main-section-logo {
   border-radius: 15%;
 }
 
+/*
+#grilla img {
+  max-height: 30vw;
+  width: auto;
+} */
 #organizadores .card img {
   width: 135px;
 }
@@ -164,6 +183,16 @@ footer img {
   #organizadores img {
     max-height: 12vw;
     width: auto;
+  }
+
+  .navbar .navbar-nav .nav-item:last-child .nav-link {
+    border-right: 1px solid #14162D30;
+    margin-right: 2vw;
+    padding-right: 2vw;
+  }
+
+  #grilla img {
+    max-height: 30vw;
   }
 }
 
