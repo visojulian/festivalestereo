@@ -20,6 +20,10 @@ body {
   color: #F66D5B;
 }
 
+.prev, .next {
+  font-size: 1.2rem;
+}
+
 footer .nav-item i {
   margin-right: 0.5vw;
   font-size: 2rem;
@@ -55,6 +59,14 @@ img#main-section-logo {
   border-radius: 15%;
 }
 
+#grilla .slick-list {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  margin: 0;
+  padding: 10px 20px;
+}
+
 #organizadores .card img {
   width: 135px;
 }
@@ -63,6 +75,10 @@ img#main-section-logo {
   max-height: 110px;
   max-width: 330px;
   width: auto;
+}
+
+#partners a {
+  width: fit-content;
 }
 
 #medias img {
@@ -197,8 +213,12 @@ footer img {
     padding-right: 2vw;
   }
 
-  #grilla img {
+  #grilla .card img {
     max-height: 30vw;
+  }
+
+  #grilla img {
+    max-height: 10vw;
   }
 
   footer div.rounded {
