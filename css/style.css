@@ -36,21 +36,22 @@ img#main-section-logo {
   border-radius: 15%;
 }
 
-.media-partner img {
-  max-width: 60vw;
+#partners img {
+  max-height: 110px;
+  max-width: 330px;
+  width: auto;
 }
 
-.media-partner .row {
-  width: 100%;
-}
-
-.chevallier-logo {
-  max-width: 85vw;
+#medias img {
+  max-height: 60px;
+  max-width: 200px;
 }
 
 #apoyan img {
   max-width: 30vw;
-  max-height: 5vw;
+  max-height: 20vw;
+  width: auto;
+  margin: 1vw;
 }
 
 footer img {
@@ -119,17 +120,27 @@ footer img {
     max-height: 3vw;
   }
 
-  .chevallier-logo {
+  .partners-logo {
     max-width: 22vw;
+    height: auto;
   }
 
   .media-partner img {
     max-width: 15vw;
   }
 
+  #apoyan .col-2 {
+    width: auto;
+    margin: 0.6vw;
+  }
+
   #apoyan img {
     max-width: 15vw;
     max-height: 5vw;
+  }
+
+  #apoyan img.achicar {
+    max-height: 3vw;
   }
 
   footer img {
@@ -139,4 +150,20 @@ footer img {
   #sedes .card img {
     max-height: 130px;
   }
+
+  #medias img {
+    max-height: 60px;
+    max-width: 200px;
+    width: auto;
+  }
+
+  #organizadores img {
+    max-height: 12vw;
+    width: auto;
+  }
+}
+
+/* Ocultar botones */
+#main-img a.btn {
+  display: none;
 }
