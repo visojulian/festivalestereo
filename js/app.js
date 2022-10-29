@@ -99,21 +99,17 @@ window.onload = () => {
   const openModal = function () {
     let modal = document.createElement('div');
     let content = document.createElement('div');
-    let closeBtn = document.createElement('span');
 
     modal.classList.add('modal');
     content.classList.add('modal-content');
-    closeBtn.classList.add('close');
 
-    closeBtn.innerHTML = '&times;';
-
-    content.appendChild(closeBtn);
     content.appendChild(grilla.cloneNode());
     modal.appendChild(content);
 
     modal.onclick = function () {
       modal.classList.remove('modal');
       modal.classList.add('display-none');
+      modal.remove();
     }
 
     document.body.appendChild(modal);
