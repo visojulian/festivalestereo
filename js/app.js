@@ -7,6 +7,7 @@ window.onload = () => {
   }
   $('.autoplay').slick({
     slidesToShow: 4,
+    swipeToSlide: true,
     pauseOnHover: false,
     pauseOnFocus: false,
     slidesToScroll: 1,
@@ -40,7 +41,7 @@ window.onload = () => {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 2000,
-    prevArrow: $('.prev'),
+    preletrow: $('.prev'),
     nextArrow: $('.next'),
     responsive: [
       {
@@ -93,6 +94,31 @@ window.onload = () => {
     ]
   });
 
+  const grilla = document.querySelector('#grilla-img');
+
+  const openModal = function () {
+    let modal = document.createElement('div');
+    let content = document.createElement('div');
+    let closeBtn = document.createElement('span');
+
+    modal.classList.add('modal');
+    content.classList.add('modal-content');
+    closeBtn.classList.add('close');
+
+    closeBtn.innerHTML = '&times;';
+
+    content.appendChild(closeBtn);
+    content.appendChild(grilla.cloneNode());
+    modal.appendChild(content);
+
+    modal.onclick = function () {
+      modal.classList.remove('modal');
+      modal.classList.add('display-none');
+    }
+
+    document.body.appendChild(modal);
+  }
+  grilla.addEventListener('click', openModal)
 }
 
 

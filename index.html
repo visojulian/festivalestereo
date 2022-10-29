@@ -71,14 +71,18 @@
         <div class="col d-none d-md-flex flex-column justify-content-around align-items-center">
           <img class="img-fluid" id="main-section-logo" src="./assets/logo-estereo.png" alt="logo-stereo">
           <div class="mt-4">
-            <a class="btn bg-color4 text-light text-bold" role="button">Quiero asistir</a>
-            <a class="btn bg-color3 text-light" role="button">Quiero participar</a>
+            <a href="https://www.eventbrite.com/e/estereo-festival-de-podcast-1era-edicion-registration-452088006397"
+              class="btn btn-lg bg-color4 text-light fw-bold" role="button">Quiero asistir</a>
+            <a class="btn bg-color3 text-light" role="button" target="_blank" rel="noopener noreferrer">Quiero
+              participar</a>
           </div>
         </div>
         <div class="col">
           <img class="img-fluid" src="./assets/pibito.png" alt="pibito">
           <div class="mt-3 d-md-none d-sm-block">
-            <a class="btn bg-color4 text-light text-bold" role="button">Quiero asistir</a>
+            <a href="https://www.eventbrite.com/e/estereo-festival-de-podcast-1era-edicion-registration-452088006397"
+              class="btn btn-lg bg-color4 text-light fw-bold" role="button" target="_blank"
+              rel="noopener noreferrer">Quiero asistir</a>
             <a class="btn bg-color3 text-light" role="button">Quiero participar</a>
           </div>
           <div class="mt-3 d-md-none d-sm-block">
@@ -94,7 +98,10 @@
         <h2 class="fw-bold text-center mb-4 h1">Mirá la grilla completa</h2>
         <div class="d-md-flex justify-content-around gap-4">
           <div class="card">
-            <img src="./assets/POSTER-CON-INDICADORES.jpg" alt="" class="img-fluid">
+            <img src="./assets/poster-horizontal.jpg" alt="" class="img-fluid">
+          </div>
+          <div class="card">
+            <img src="./assets/grillacompleta.jpg" alt="" class="img-fluid" id="grilla-img">
           </div>
         </div>
       </div>
@@ -433,15 +440,17 @@
         <h2 class="fw-bold text-center">Partners</h2>
         <div class="row justify-content-around align-items-center">
           <a href="https://www.gruposancristobal.com.ar/" target="_blank" rel="noopener noreferrer"><img
-              src="./assets/partners/logo_grupo_sc.svg" alt="main-partner" class="img-fluid m-4 col-10 col-md-3"></a>
+              src="./assets/partners/logo_grupo_sc.svg" alt="main-partner" class="img-fluid my-4 col-10 col-md-3"></a>
           <a href="https://www.rosario.gob.ar/inicio/" target="_blank" rel="noopener noreferrer"><img
-              src="./assets/partners/municipalidad.png" alt="main-partner" class="img-fluid m-4 col-10 col-md-3"></a>
+              src="./assets/partners/municipalidad.png" alt="main-partner" class="img-fluid my-4 col-10 col-md-3"></a>
           <a href="https://www.taragui.com/ar" target="_blank" rel="noopener noreferrer"><img
-              src="./assets/partners/taragui.png" alt="main-partner" class="img-fluid m-4 col-10 col-md-3"></a>
+              src="./assets/partners/taragui.png" alt="main-partner" class="img-fluid my-4 col-10 col-md-3"></a>
           <a href="https://www.sembramedia.org/" target="_blank" rel="noopener noreferrer"><img
-              src="./assets/partners/sembramedia.png" alt="main-partner" class="img-fluid m-4 col-10 col-md-3"></a>
+              src="./assets/partners/sembramedia.png" alt="main-partner" class="img-fluid my-4 col-10 col-md-3"></a>
           <a href="https://www.nuevachevallier.com/" target="_blank" rel="noopener noreferrer"><img
-              src="./assets/partners/chevallier-logo.png" alt="main-partner" class="img-fluid m-4 col-10 col-md-3"></a>
+              src="./assets/partners/chevallier-logo.png" alt="main-partner" class="img-fluid my-4 col-10 col-md-3"></a>
+          <a href="https://hindenburg.com/" target="_blank" rel="noopener noreferrer"><img
+              src="./assets/partners/hindenburg.svg" alt="main-partner" class="img-fluid my-4 col-10 col-md-3"></a>
         </div>
         <div class="row justify-content-around align-items-center px-5" id="medias">
           <div class="col-7 col-md-4 text-center">
@@ -451,17 +460,17 @@
             <a href="https://elplanteo.com/" target="_blank" rel="noopener noreferrer"><img
                 src="./assets/partners/el-planteo.png" alt="el-planteo" class="my-2 img-fluid"></a>
           </div>
-          <div class="col-7 col-md-4 text-center">
+          <div class="col-6 col-md-4 text-center">
             <h4 class="fw-bold text-center py-2">Social media partner</h4>
           </div>
-          <div class="col-7 col-md-4 text-center order-md-2 my-3 my-md-0">
+          <div class="col-6 col-md-4 text-center order-2 order-md-2 my-3 my-md-0">
             <a href="https://www.instagram.com/now.agenciacreativa/?hl=en" target="_blank"
               rel="noopener noreferrer"><img src="./assets/partners/now.png" alt="now" class="my-2 img-fluid"></a>
           </div>
-          <div class="col-7 col-md-4 text-center">
+          <div class="col-6 col-md-4 text-center">
             <h4 class="fw-bold text-center py-2">PR partner</h4>
           </div>
-          <div class="col-7 col-md-4 text-center order-md-2">
+          <div class="col-6 col-md-4 text-center order-2">
             <a href="http://www.trino360.com.ar/" target="_blank" rel="noopener noreferrer"><img
                 src="./assets/partners/trino.png" alt="trino" class="my-2 img-fluid"></a>
           </div>
@@ -495,8 +504,7 @@
       </div>
     </section>
   </main>
-  <footer class="row row-cols-1 row-cols-md-6 py-5 mt-5 border-top">
-    <div class="col"></div>
+  <footer class="row row-cols-1 row-cols-md-6 justify-content-center py-5 mt-5 border-top">
     <div class="col">
       <a href="/" class="d-flex justify-content-center align-items-center mb-3 link-dark text-decoration-none">
         <img src="./assets/logo-estereo.png" alt="festival estereo">
@@ -515,7 +523,7 @@
       <ul class="nav flex-column">
         <h5 class="text-center fw-bold text-muted mt-3">Contacto:</h5>
         <li class="nav-item mb-2"><a href="mailto:festivalestereorosario@gmail.com"
-            class="h5 text-muted">festivalestereorosario@gmail.com</a></li>
+            class="h6 text-muted">festivalestereorosario@gmail.com</a></li>
         <li class="nav-item mb-2">
           <a href="https://twitter.com/EstereoFestival" target="_blank" rel="noopener noreferrer"><i
               class="bi-twitter"></i></a>
