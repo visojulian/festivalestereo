@@ -75,7 +75,7 @@ img#main-section-logo {
 img#main-section-podimo {
   margin: auto;
   display: block;
-  max-width: 13vw;
+  max-width: 13%;
   margin-bottom: 1vw;
 }
 
@@ -198,7 +198,7 @@ footer img {
   }
 
   img#main-section-podimo {
-    max-width: 6vw;
+    max-width: 10%;
   }
 
   .partners-logo {
