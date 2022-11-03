@@ -20,8 +20,29 @@ body {
   color: #F66D5B;
 }
 
+#grilla {
+  position: relative;
+}
+
 .prev, .next {
+  position: absolute;
   font-size: 1.2rem;
+  bottom: 15%;
+  width: 50px;
+  height: 50px;
+}
+
+.prev {
+  left: 5%;
+}
+
+.next {
+  right: 5%;
+}
+
+.prev:hover, .next:hover {
+  cursor: pointer;
+  opacity: 50%;
 }
 
 footer .nav-item i {
@@ -47,7 +68,15 @@ main, footer {
 }
 
 img#main-section-logo {
-  max-width: 30vw;
+  max-width: 40vw;
+  margin-bottom: 2vw;
+}
+
+img#main-section-podimo {
+  margin: auto;
+  display: block;
+  max-width: 13vw;
+  margin-bottom: 1vw;
 }
 
 #festival-img {
@@ -164,6 +193,14 @@ footer img {
     max-height: 3vw;
   }
 
+  img#main-section-logo {
+    margin-bottom: 0;
+  }
+
+  img#main-section-podimo {
+    max-width: 6vw;
+  }
+
   .partners-logo {
     max-width: 22vw;
     height: auto;
@@ -218,6 +255,18 @@ footer img {
 
   #grilla img {
     max-height: 10vw;
+  }
+
+  .prev, .next {
+    bottom: 13%;
+  }
+
+  .prev {
+    left: 1%;
+  }
+
+  .next {
+    right: 1%;
   }
 
   footer div.rounded {

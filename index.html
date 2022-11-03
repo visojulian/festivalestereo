@@ -66,10 +66,14 @@
     </div>
   </nav>
   <main>
-    <section id="main-img" class="container-fluid pb-2 pb-md-0 text-center">
+    <section id="main-img" class="container-fluid pb-0 text-center">
       <div class="trazos row align-items-center pt-5 px">
         <div class="col d-none d-md-flex flex-column justify-content-around align-items-center">
+          <img class="img-fluid" id="main-section-podimo" src="./assets/podimo-presenta.png" alt="logo-podimo">
           <img class="img-fluid" id="main-section-logo" src="./assets/logo-estereo.png" alt="logo-stereo">
+          <div class="mt-3 d-md-block d-none">
+            <div class="h2 fw-bold secondary text-align-center"> 17 - 18 - 19 de Noviembre</div>
+          </div>
           <div class="mt-4">
             <a href="https://www.eventbrite.com/e/estereo-festival-de-podcast-1era-edicion-registration-452088006397"
               class="btn btn-lg bg-color4 text-light fw-bold" role="button">Quiero asistir</a>
@@ -78,18 +82,18 @@
           </div>
         </div>
         <div class="col">
-          <img class="img-fluid" src="./assets/pibito.png" alt="pibito">
           <div class="mt-3 d-md-none d-sm-block">
+            <img class="img-fluid" id="main-section-podimo" src="./assets/podimo-presenta.png" alt="logo-podimo">
+            <img class="img-fluid" id="main-section-logo" src="./assets/logo-estereo.png" alt="logo-stereo">
+            <div class="h2 fw-bold secondary text-align-center"> 17 - 18 - 19 de Noviembre</div>
+          </div>
+          <div class="my-3 d-md-none d-sm-block">
             <a href="https://www.eventbrite.com/e/estereo-festival-de-podcast-1era-edicion-registration-452088006397"
               class="btn btn-lg bg-color4 text-light fw-bold" role="button" target="_blank"
               rel="noopener noreferrer">Quiero asistir</a>
             <a class="btn bg-color3 text-light" role="button">Quiero participar</a>
           </div>
-          <div class="mt-3 d-md-none d-sm-block">
-            <div class="h2 fw-bold secondary text-align-center"> 17 - 18 - 19 <br>
-              <span> de Noviembre </span>
-            </div>
-          </div>
+          <img class="img-fluid" src="./assets/pibito.png" alt="pibito">
         </div>
       </div>
     </section>
@@ -97,9 +101,6 @@
       <div class="container pt-5 pb-2">
         <h2 class="fw-bold text-center mb-4 h1">Mirá la grilla completa</h2>
         <div class="d-md-flex justify-content-around gap-4">
-          <div class="card">
-            <img src="./assets/poster-horizontal.jpg" alt="" class="img-fluid">
-          </div>
           <div class="card mt-4 mt-md-0">
             <img src="./assets/grillacompleta.jpg" alt="" class="img-fluid" id="grilla-img">
           </div>
@@ -213,8 +214,12 @@
         </div>
       </div>
       <div class="row row-cols-2">
-        <div class="prev bg-color1 text-center"><i class="bi bi-arrow-left text-light"></i></div>
-        <div class="next bg-color1 text-center"><i class="bi bi-arrow-right text-light"></i></div>
+        <div class="prev bg-color1 text-center rounded-circle d-flex align-items-center justify-content-center shadow">
+          <i class="bi bi-arrow-left text-light"></i>
+        </div>
+        <div class="next bg-color1 text-center rounded-circle d-flex align-items-center justify-content-center shadow">
+          <i class="bi bi-arrow-right text-light"></i>
+        </div>
       </div>
     </section>
     <section id="festival">
@@ -437,20 +442,28 @@
     </div>
     <section id="partners">
       <div class="container py-5">
+        <h2 class="fw-bold text-center">Main Partner</h2>
+        <div class="row justify-content-around align-items-center">
+          <a href="https://podimo.com/es" target="_blank" rel="noopener noreferrer"><img
+              src="./assets/partners/podimo.png" alt="Podimo" class="img-fluid my-4 col-10 col-md-3"></a>
+        </div>
         <h2 class="fw-bold text-center">Partners</h2>
         <div class="row justify-content-around align-items-center">
           <a href="https://www.gruposancristobal.com.ar/" target="_blank" rel="noopener noreferrer"><img
-              src="./assets/partners/logo_grupo_sc.svg" alt="main-partner" class="img-fluid my-4 col-10 col-md-3"></a>
+              src="./assets/partners/logo_grupo_sc.svg" alt="Grupo San Cristobal"
+              class="img-fluid my-4 col-10 col-md-3"></a>
           <a href="https://www.rosario.gob.ar/inicio/" target="_blank" rel="noopener noreferrer"><img
-              src="./assets/partners/municipalidad.png" alt="main-partner" class="img-fluid my-4 col-10 col-md-3"></a>
+              src="./assets/partners/municipalidad.png" alt="Municipalidad de Rosario"
+              class="img-fluid my-4 col-10 col-md-3"></a>
           <a href="https://www.taragui.com/ar" target="_blank" rel="noopener noreferrer"><img
-              src="./assets/partners/taragui.png" alt="main-partner" class="img-fluid my-4 col-10 col-md-3"></a>
+              src="./assets/partners/taragui.png" alt="Taragüí" class="img-fluid my-4 col-10 col-md-3"></a>
           <a href="https://www.sembramedia.org/" target="_blank" rel="noopener noreferrer"><img
-              src="./assets/partners/sembramedia.png" alt="main-partner" class="img-fluid my-4 col-10 col-md-3"></a>
+              src="./assets/partners/sembramedia.png" alt="Sembra Media" class="img-fluid my-4 col-10 col-md-3"></a>
           <a href="https://www.nuevachevallier.com/" target="_blank" rel="noopener noreferrer"><img
-              src="./assets/partners/chevallier-logo.png" alt="main-partner" class="img-fluid my-4 col-10 col-md-3"></a>
+              src="./assets/partners/chevallier-logo.png" alt="Nueva Chevallier"
+              class="img-fluid my-4 col-10 col-md-3"></a>
           <a href="https://hindenburg.com/" target="_blank" rel="noopener noreferrer"><img
-              src="./assets/partners/hindenburg.svg" alt="main-partner" class="img-fluid my-4 col-10 col-md-3"></a>
+              src="./assets/partners/hindenburg.svg" alt="Hindenburg" class="img-fluid my-4 col-10 col-md-3"></a>
         </div>
         <div class="row justify-content-around align-items-center px-5" id="medias">
           <div class="col-7 col-md-4 text-center">
