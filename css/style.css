@@ -188,6 +188,16 @@ footer img {
   background-color: #FF6D8790;
 }
 
+#prensa p {
+  text-align: center;
+  width: 70%;
+}
+
+#prensa li {
+  list-style-type: none;
+  margin: 20px 0;
+}
+
 @media screen and (min-width:768px) {
   .navbar-brand img {
     max-height: 3vw;
