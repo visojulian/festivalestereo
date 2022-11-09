@@ -94,19 +94,19 @@ window.onload = () => {
     ]
   });
 
-  const grilla = document.querySelector('#grilla-img');
+  const grillas = document.querySelectorAll('.grilla-img');
 
-  const openModal = function () {
+  const openModal = (foto) => {
     let modal = document.createElement('div');
     let content = document.createElement('div');
 
     modal.classList.add('modal');
     content.classList.add('modal-content');
 
-    content.appendChild(grilla.cloneNode());
+    content.appendChild(foto);
     modal.appendChild(content);
 
-    modal.onclick = function () {
+    modal.onclick = () => {
       modal.classList.remove('modal');
       modal.classList.add('display-none');
       modal.remove();
@@ -114,7 +114,10 @@ window.onload = () => {
 
     document.body.appendChild(modal);
   }
-  grilla.addEventListener('click', openModal)
+
+  grillas.forEach(foto => {
+    foto.addEventListener('click', () => openModal(foto.cloneNode()));
+  });
 }
 
 

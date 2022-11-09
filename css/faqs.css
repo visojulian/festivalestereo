@@ -12,6 +12,10 @@
   overflow: hidden;
 }
 
+#fugas-card, #psico-card {
+  background-size: auto;
+}
+
 .gratis {
   width: 80px;
   height: 50px;
@@ -33,6 +37,10 @@
 
 #biblio-card {
   background-image: url(../assets/entrada-biblioteca-argentina-dr-juan-alvarez.jpg);
+}
+
+#sembra-card {
+  background-image: url(../assets/partners/Equido-de-SembraMedia-700-600x368.jpg);
 }
 
 #bruju-card {
