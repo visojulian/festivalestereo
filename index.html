@@ -70,34 +70,39 @@
   </nav>
   <main>
     <section id="main-img" class="container-fluid pb-0 text-center">
-      <div class="trazos row align-items-center pt-5 px">
-        <div class="col pb-md-2 d-none d-md-flex flex-column justify-content-around align-items-center">
+      <div class="trazos row align-items-center justify-content-center pt-md-5">
+        <div id="first-col" class="col d-none d-md-flex flex-column justify-content-around align-items-center">
           <img class="img-fluid" id="main-section-podimo" src="./assets/podimo-presenta.png" alt="logo-podimo">
           <img class="img-fluid" id="main-section-logo" src="./assets/logo-estereo.png" alt="logo-stereo">
           <div class="mt-3 d-md-block d-none">
             <div class="h2 fw-bold secondary text-align-center"> 17 - 18 - 19 de Noviembre</div>
           </div>
-          <div class="mt-4">
+          <div class="mt-4 pb-md-2 mb-3">
             <a href="https://www.eventbrite.com/e/estereo-festival-de-podcast-1era-edicion-registration-452088006397"
               class="btn btn-lg bg-color4 text-light fw-bold" role="button" target="_blank"
               rel="noopener noreferrer">Quiero asistir</a>
-            <a class="btn bg-color3 text-light" role="button" target="_blank" rel="noopener noreferrer">Quiero
-              participar</a>
           </div>
         </div>
-        <div class="col">
+        <div id="rosario" class="col d-none d-md-block">
+          <div class="mt-3">
+            <div class="h2 fw-bold secondary text-align-center"><i class="bi-geo-alt-fill color1"></i> Rosario, Santa
+              Fe, Argentina</div>
+          </div>
+        </div>
+        <div class="col align-self-end">
           <div class="mt-3 d-md-none d-sm-block">
             <img class="img-fluid" id="main-section-podimo" src="./assets/podimo-presenta.png" alt="logo-podimo">
-            <img class="img-fluid" id="main-section-logo" src="./assets/logo-estereo.png" alt="logo-stereo">
+            <img class="img-fluid mb-4" id="main-section-logo" src="./assets/logo-estereo.png" alt="logo-stereo">
             <div class="h2 fw-bold secondary text-align-center"> 17 - 18 - 19 de Noviembre</div>
+            <div class="h2 fw-bold secondary text-align-center"><i class="bi-geo-alt-fill color1"></i> Rosario, Santa
+              Fe, Argentina</div>
           </div>
           <div class="my-3 d-md-none d-sm-block">
             <a href="https://www.eventbrite.com/e/estereo-festival-de-podcast-1era-edicion-registration-452088006397"
               class="btn btn-lg bg-color4 text-light fw-bold" role="button" target="_blank"
               rel="noopener noreferrer">Quiero asistir</a>
-            <a class="btn bg-color3 text-light" role="button">Quiero participar</a>
           </div>
-          <img class="img-fluid" src="./assets/pibito.png" alt="pibito">
+          <img class="img-fluid" src="./assets/pibito.png" id="pibito" alt="pibito">
         </div>
       </div>
     </section>
@@ -468,6 +473,10 @@
               class="img-fluid my-4 col-10 col-md-3"></a>
           <a href="https://hindenburg.com/" target="_blank" rel="noopener noreferrer"><img
               src="./assets/partners/hindenburg.svg" alt="Hindenburg" class="img-fluid my-4 col-10 col-md-3"></a>
+          <a href="http://vale4.com/" target="_blank" rel="noopener noreferrer" id="cima"><img
+              src="./assets/partners/cima.png" alt="Cima Eyewear" class="img-fluid my-4 col-10 col-md-3"></a>
+          <a href="https://brujulacow.com.ar" target="_blank" rel="noopener noreferrer" id="brujula"><img
+              src="./assets/apoyan/brujula.png" alt="Brujula Coworking" class="img-fluid my-4 col-10 col-md-3"></a>
         </div>
         <div class="row justify-content-around align-items-center px-5" id="medias">
           <div class="col-7 col-md-4 text-center">
@@ -510,7 +519,6 @@
           <img src="./assets/apoyan/diputados.png" alt="Cam. Diputados Sta. Fe" class="col-md-2 col-4">
           <img src="./assets/apoyan/podcasteros.png" alt="Podcasteros" class="col-md-2 col-4">
           <img src="./assets/apoyan/innova.png" alt="Espacio Innova.R" class="col-md-2 col-4">
-          <img src="./assets/apoyan/brujula.png" alt="Brújula Coworking" class="col-md-2 col-4">
           <img src="./assets/apoyan/late.png" alt="Revista LATE" class="col-md-2 col-4 achicar">
           <img src="./assets/apoyan/escucha.png" alt="Escucha Podcast" class="col-md-2 col-4">
           <img src="./assets/apoyan/labso.png" alt="Laboratorio Sonoro" class="col-md-2 col-4 achicar">
@@ -523,7 +531,8 @@
   </main>
   <footer class="row row-cols-1 row-cols-md-6 justify-content-center py-5 mt-5 border-top">
     <div class="col">
-      <a href="/" class="d-flex justify-content-center align-items-center mb-3 link-dark text-decoration-none">
+      <a href="https://festivalestereo.com.ar/"
+        class="d-flex justify-content-center align-items-center mb-3 link-dark text-decoration-none">
         <img src="./assets/logo-estereo.png" alt="festival estereo">
       </a>
       <p class="text-muted text-center mb-0">Festival Estéreo &copy; 2022</p>
@@ -535,7 +544,7 @@
         <li class="nav-item mb-2"><a href="#sedes" class="nav-link p-0 text-muted">Sedes</a></li>
         <li class="nav-item mb-2"><a href="#organizadores" class="nav-link p-0 text-muted">Organizadores</a></li>
         <li class="nav-item">
-          <a href="https://festivalestereo.com.ar/prensa.html" class="nav-link">Prensa</a>
+          <a href="https://festivalestereo.com.ar/prensa.html" class="nav-link p-0 text-muted">Prensa</a>
         </li>
       </ul>
     </div>

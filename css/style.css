@@ -62,19 +62,23 @@ main, footer {
   background-color: #F8F9FA;
 }
 
+#main-img .col {
+  background-color: #F8F9FA;
+}
+
 #main-img img {
   max-width: 80%;
-  max-height: 50vh;
+  max-height: 50vw;
 }
 
 img#main-section-logo {
   max-width: 40vw;
-  margin-bottom: 2vw;
 }
 
 img#main-section-podimo {
   margin: auto;
   display: block;
+  min-width: 80px;
   max-width: 13%;
   margin-bottom: 1vw;
 }
@@ -153,7 +157,7 @@ footer img {
 }
 
 .color5 {
-  background-color: #D0B9E9;
+  color: #D0B9E9;
 }
 
 .bg-color1 {
@@ -178,6 +182,10 @@ footer img {
 
 .btn.bg-color1:hover {
   background-color: #F66D5B90;
+}
+
+.btn.bg-color2:hover {
+  background-color: #00E06E90;
 }
 
 .btn.bg-color3:hover {
@@ -208,7 +216,16 @@ footer img {
   }
 
   img#main-section-podimo {
+    min-width: 185px;
     max-width: 10%;
+  }
+
+  #main-img img#pibito {
+    min-width: 100%;
+  }
+
+  #rosario {
+    max-width: 25%;
   }
 
   .partners-logo {
@@ -218,6 +235,18 @@ footer img {
 
   .media-partner img {
     max-width: 15vw;
+  }
+
+  a#cima img {
+    max-height: 60px;
+  }
+
+  a#cima {
+    margin-left: 100px
+  }
+
+  a#brujula img {
+    max-height: 80px;
   }
 
   #apoyan .col-2 {
